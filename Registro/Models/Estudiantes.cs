@@ -28,7 +28,7 @@ namespace Registro.Models
         [Required(ErrorMessage = "Porfavor ingrese su nombre")]
         [StringLength(60, MinimumLength = 3, ErrorMessage = "Su nombre debe contener mas de 3 letras")]
         [Display(Name = "Nombre")]
-        public string Nombre { get; set; }
+        public string Nombre { get; set; }  //hola
 
 
 
